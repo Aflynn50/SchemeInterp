@@ -32,6 +32,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , mtl
     , parsec
   default-language: Haskell2010
 
@@ -45,6 +46,7 @@ executable SchemeInterp-exe
   build-depends:
       SchemeInterp
     , base >=4.7 && <5
+    , mtl
     , parsec
   default-language: Haskell2010
 
@@ -59,5 +61,6 @@ test-suite SchemeInterp-test
   build-depends:
       SchemeInterp
     , base >=4.7 && <5
+    , mtl
     , parsec
   default-language: Haskell2010
